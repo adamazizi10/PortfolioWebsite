@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c196cc5.css",
-    "main.js": "/static/js/main.fc16f23c.js",
-    "static/media/face-detector.png": "/static/media/face-detector.33634c847686966428af.png",
-    "static/media/PortfolioPic.png": "/static/media/PortfolioPic.71d886dc47d9f66308dc.png",
-    "static/media/Adam-Azizi-Resume-2022.pdf": "/static/media/Adam-Azizi-Resume-2022.b2d1bdd75f9a2a08ef5e.pdf",
-    "static/media/Book2.png": "/static/media/Book2.4ca0f04146c176a1fa34.png",
-    "index.html": "/index.html",
-    "main.5c196cc5.css.map": "/static/css/main.5c196cc5.css.map",
-    "main.fc16f23c.js.map": "/static/js/main.fc16f23c.js.map"
+    "main.css": "/react-portfolio/static/css/main.406c55bc.css",
+    "main.js": "/react-portfolio/static/js/main.56ea4803.js",
+    "static/media/face-detector.png": "/react-portfolio/static/media/face-detector.33634c847686966428af.png",
+    "static/media/face-detector2.png": "/react-portfolio/static/media/face-detector2.c2a052b0a86086bee73c.png",
+    "static/media/PortfolioPic.png": "/react-portfolio/static/media/PortfolioPic.71d886dc47d9f66308dc.png",
+    "static/media/PortfolioPic2.png": "/react-portfolio/static/media/PortfolioPic2.c5130d8106aded140bb2.png",
+    "static/media/Book1.png": "/react-portfolio/static/media/Book1.de499be719555553a8e4.png",
+    "static/media/Book2.png": "/react-portfolio/static/media/Book2.4ca0f04146c176a1fa34.png",
+    "static/media/erindale.jpg": "/react-portfolio/static/media/erindale.1f0373abc46ab463fc72.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.406c55bc.css.map": "/react-portfolio/static/css/main.406c55bc.css.map",
+    "main.56ea4803.js.map": "/react-portfolio/static/js/main.56ea4803.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c196cc5.css",
-    "static/js/main.fc16f23c.js"
+    "static/css/main.406c55bc.css",
+    "static/js/main.56ea4803.js"
   ]
 }
