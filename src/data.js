@@ -58,7 +58,7 @@ const ProjectsData = [
     img2: PortfolioPic2,
     name: "E-Portfolio",
     Tech: "Reactjs | Hooks | Redux",
-    date: "Apr 2023 - May 2023",
+    date: "Sep 2022 - Oct 2022",
     live: "https://adamazizi.ml/",
     source: "https://github.com/adamazizi10/react-portfolio",
     description1:
