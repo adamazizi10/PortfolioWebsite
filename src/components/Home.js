@@ -18,11 +18,11 @@ const Home = () => {
 
           <div>
             <Player
-              src='https://assets8.lottiefiles.com/packages/lf20_0yfsb3a1.json'
-              className="player"
+            src='https://assets6.lottiefiles.com/packages/lf20_DbCYKfCXBZ.json'
+            className="player"
               loop
               autoplay
-              style={{ maxHeight: '700px', maxWidth: '700px' }}
+              style={{ maxHeight: '500px', maxWidth: '500px' }}
             />
           </div>
         </div>
@@ -31,7 +31,7 @@ const Home = () => {
       <div className='displayFlexT'>
         <div>
           <Player
-            src='https://assets3.lottiefiles.com/packages/lf20_ngzwzxib.json'
+            src='https://assets4.lottiefiles.com/packages/lf20_5ko2mBiWUp.json'
             className="player spLottie"
             loop
             autoplay

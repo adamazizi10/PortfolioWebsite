@@ -9,7 +9,7 @@ const About = () => {
       <div className='d-sm-flex align-items-center justify-content-between'>
         <div>
           <Player
-            src='https://assets6.lottiefiles.com/packages/lf20_tno6cg2w.json'
+            src='https://assets9.lottiefiles.com/packages/lf20_mXdqmT1SH2.json'
             className="player"
             loop
             autoplay
@@ -18,9 +18,9 @@ const About = () => {
         </div>
         <div className='ms-sm-5 ps-sm-5 d-flex flex-column text-center align-items-center align-items-lg-start'>
           <h1 className='custom-font'>Skills, Languages, and Technologies</h1>
-        </div>
+        </div>x
       </div>
-      <br /><br /><br /><br />
+      <br />
       {/* Front-End */}
       <div className='d-flex flex-column align-items-center justify-content-center'>
         <div className='ms-sm-5 ps-sm-5 d-flex flex-column text-center align-items-center'>

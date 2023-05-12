@@ -9,13 +9,12 @@ const Experiences = () => {
             <div className='container-fluid mainHome'>
                 <div className='d-sm-flex align-items-center justify-content-between'>
                     <div className='ms-sm-5 ps-sm-5 d-flex flex-column text-center align-items-center align-items-lg-start'>
-                        <h1 className='fw-bold custom-font'>Relevant Experience as a Software Engineer</h1>
+                        <h1 className='fw-bold custom-font'>Relevant Experience as a Software Developer</h1>
 
                     </div>
-
                     <div>
                         <Player
-                            src='https://assets2.lottiefiles.com/private_files/lf30_xeb8piyr.json'
+                            src='https://assets8.lottiefiles.com/private_files/lf30_3rex3dkf.json'
                             className="player"
                             loop
                             autoplay

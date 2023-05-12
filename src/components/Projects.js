@@ -15,7 +15,7 @@ const Projects = () => {
 
                     <div>
                         <Player
-                            src='https://assets2.lottiefiles.com/packages/lf20_vnikrcia.json'
+                            src='https://assets7.lottiefiles.com/packages/lf20_JQ0bqPxiN9.json'
                             className="player"
                             loop
                             autoplay
