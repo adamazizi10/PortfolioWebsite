@@ -18,7 +18,7 @@ const About = () => {
         </div>
         <div className='ms-sm-5 ps-sm-5 d-flex flex-column text-center align-items-center align-items-lg-start'>
           <h1 className='custom-font'>Skills, Languages, and Technologies</h1>
-        </div>x
+        </div>
       </div>
       <br />
       {/* Front-End */}
