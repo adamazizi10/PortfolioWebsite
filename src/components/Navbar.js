@@ -1,6 +1,4 @@
 import React from 'react';
-import { FaArrowCircleDown } from 'react-icons/fa'
-import resume from '../assets/Adam-Azizi-Resume.pdf'
 const Navbar = () => {
   return (
     <nav className="navStuff bg-light navbar navbar-expand-lg shadow-sm p-4">
@@ -26,8 +24,11 @@ const Navbar = () => {
             Contact
           </a>
         </div>
-
         <div>
+
+        
+
+        {/* 
           <a href={resume} download >
             <button className="btn btn-success ms-lg-4 px-4 resume-btn" type="button">
                My Resume{' '}
@@ -35,6 +36,7 @@ const Navbar = () => {
             </button>
           </a>
 
+       */}
         </div>
       </div>
       <style>
