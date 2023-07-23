@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.5854ab00.css",
-    "main.js": "/static/js/main.7d069056.js",
-    "static/media/Book1.png": "/static/media/Book1.fab218313fcb971d3684.png",
-    "static/media/Book2.png": "/static/media/Book2.e47a41910e8b95f8a47b.png",
-    "static/media/face-detector.png": "/static/media/face-detector.5ef38730eada5a2512ec.png",
-    "static/media/face-detector2.png": "/static/media/face-detector2.56c9a06b743f6b8b90df.png",
-    "static/media/pass1.png": "/static/media/pass1.4170b60e8beb38dfc711.png",
-    "static/media/pass2.png": "/static/media/pass2.1e0d7c9923225bea03c3.png",
-    "static/media/PortfolioPic.png": "/static/media/PortfolioPic.3bd43099884388a22d10.png",
-    "static/media/erindale.jpg": "/static/media/erindale.04308d24c015ef85adc4.jpg",
-    "index.html": "/index.html",
-    "main.5854ab00.css.map": "/static/css/main.5854ab00.css.map",
-    "main.7d069056.js.map": "/static/js/main.7d069056.js.map"
+    "main.css": "/adamazizi.ml/static/css/main.5854ab00.css",
+    "main.js": "/adamazizi.ml/static/js/main.0e5ce489.js",
+    "static/media/Book1.png": "/adamazizi.ml/static/media/Book1.fab218313fcb971d3684.png",
+    "static/media/Book2.png": "/adamazizi.ml/static/media/Book2.e47a41910e8b95f8a47b.png",
+    "static/media/face-detector.png": "/adamazizi.ml/static/media/face-detector.5ef38730eada5a2512ec.png",
+    "static/media/face-detector2.png": "/adamazizi.ml/static/media/face-detector2.56c9a06b743f6b8b90df.png",
+    "static/media/pass1.png": "/adamazizi.ml/static/media/pass1.4170b60e8beb38dfc711.png",
+    "static/media/pass2.png": "/adamazizi.ml/static/media/pass2.1e0d7c9923225bea03c3.png",
+    "static/media/PortfolioPic.png": "/adamazizi.ml/static/media/PortfolioPic.3bd43099884388a22d10.png",
+    "static/media/erindale.jpg": "/adamazizi.ml/static/media/erindale.04308d24c015ef85adc4.jpg",
+    "index.html": "/adamazizi.ml/index.html",
+    "main.5854ab00.css.map": "/adamazizi.ml/static/css/main.5854ab00.css.map",
+    "main.0e5ce489.js.map": "/adamazizi.ml/static/js/main.0e5ce489.js.map"
   },
   "entrypoints": [
     "static/css/main.5854ab00.css",
-    "static/js/main.7d069056.js"
+    "static/js/main.0e5ce489.js"
   ]
 }
