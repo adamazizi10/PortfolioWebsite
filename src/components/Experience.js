@@ -1,44 +1,46 @@
-import React from 'react'
-import { BiLinkExternal } from 'react-icons/bi'
-import { FaLinkedin } from 'react-icons/fa'
-
-function Experience({id, image, name, stack, live, source, desc1, desc2, desc3, desc4, desc5, job, type, date, location}) {
+function Experience({ windowWidth, isSmallScreen, isMediumScreenname, name, stack, live, source, desc1, desc2, desc3, desc4, desc5, job, date, location, colour }) {
   return (
-    <div className="border-radius-circle" style={{ }}>
-      <div className="card mb-5" style={{ maxWidth: '900px', background: ''}}>
-        <div className="g-0 d-flex flex-column flex-lg-row align-items-center ">
-          <div className="">
-            <img src={image} className="img-fluid rounded-start project-img img-phone" alt={name} />
+    <div className="shadow-lg mb-5" style={{ borderRadius: "30px", position: "relative", }}>
+      <div style={{ display: windowWidth < 1000 ? 'block' : 'flex' }} className="justify-content-between">
+        <div className='p-5 text-white'
+          style={{
+            position: "relative",
+            backgroundColor: colour,
+            width: windowWidth >= 1000 ? '70%' : '100%',
+            borderTopRightRadius: windowWidth < 1000 ? '30px' : '0px',
+            borderTopLeftRadius: '30px',
+            borderBottomRightRadius: '0px',
+            borderBottomLeftRadius: windowWidth < 1000 ? '0px' : '30px'
+          }}>
+          <div >
+            <h1 className="fw-bold text-white">{name}</h1>
+            <h4 className="fw-bold text-white">{job}</h4><hr />
+            <p className="text-white">{date}</p><br /><br /><br />
+
           </div>
-          <div className="">
-            <div className="card-body">
-              <h5 className="card-title mt-2">{job}</h5>
-              <p className='grey-text mb-0'>{name} | {date}</p>
-              <p className='grey-text mb-3'>{location}</p>
-              <ul>
-                <li>{desc1}</li>
-                <li>{desc2}</li>
-                <li>{desc3}</li>
-                <li>{desc4}</li>
-                <li>{desc5}</li>
-              </ul>              <div className="mt-5 align-text-bottom">
-                <p className='font-weight-bold card-text'>Skills: </p>
-                <p className="card-text">{stack}</p>
-                <p className="card-text d-flex gap-4">
-                  <a href={live} target="_blank" rel="noreferrer" className='link'>
-                    Webite <BiLinkExternal style={{ color: '#3edd8e' }} />
-                  </a>
-                  <a href={source} target="_blank" rel="noreferrer" className='link'>
-                    linkedin <FaLinkedin style={{ color: '#3edd8e' }} />
-                  </a>
-                </p>
-              </div>
-            </div>
+          <div style={{ position: "absolute", bottom: "0px" }}>
+            <p className="text-white">{location}</p>
           </div>
+        </div>
+        <div className='p-4 cardBackgroundColour'
+          style={{
+            borderTopRightRadius: windowWidth < 1000 ? '0px' : '30px',
+            borderTopLeftRadius: '0px',
+            borderBottomRightRadius: '30px',
+            borderBottomLeftRadius: windowWidth < 1000 ? '30px' : '0px'
+          }}>
+          <h4 className="fw-bold text-white">Description</h4><hr style={{ backgroundColor: "white" }} />
+          <ul>
+            <li className="p-1 text-white">{desc1}</li>
+            <li className="p-1 text-white">{desc2}</li>
+            <li className="p-1 text-white">{desc3}</li>
+            {windowWidth > 900 && <li className="p-1 text-white">{desc4}</li>}
+            {desc5 !== "" && windowWidth > 900 && <li className="p-1 text-white">{desc5}</li>}
+          </ul><hr style={{ backgroundColor: "white" }} /><div className="text-muted">&nbsp;{stack}</div>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Experience
+export default Experience;
